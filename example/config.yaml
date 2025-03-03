@@ -1,0 +1,12 @@
+  server:
+    address: 127.0.0.1
+    storage:
+    s3:
+        url: 
+        access_key: s3-access-key
+        secret_key: s3-secret-key
+        bucket: bucket-name
+        cache: path/
+        region: us-east-1
+    local:
+    path: path
